@@ -18,6 +18,7 @@
 
 <body>
 
+
   <!-- HEADER -->
   <div class="header__burger-body">
     <div class="header__burger-wrapper">
@@ -124,15 +125,25 @@
           <div class="header__container">
             <div class="header__lang">
               <div class="select">
-                <div class="select__header">
-                  <span class="select__curent">UA</span>
-                  <div class="select__icon">
-                    <img src="./images/header/arrow-white.svg" alt="" loading="lazy">
-                  </div>
+                <img src="./images/lang/ukr.svg" alt="" class="select-img">
+                <img src="./images/lang/arrow.svg" alt="" class="select-arrow">
+              </div>
+              <div class="select-body">
+                <div data-lang="ukr" class="select-item">
+                  <img src="./images/lang/ukr.svg" alt="" class="select-item__flag">
+                  <p class="select-item__lang">Українська</p>
                 </div>
-                <div class="select__body">
-                  <div class="select__item">UA</div>
-                  <div class="select__item">EN</div>
+                <div data-lang="en" class="select-item">
+                  <img src="./images/lang/en.svg" alt="" class="select-item__flag">
+                  <p class="select-item__lang">English</p>
+                </div>
+                <div data-lang="cz" class="select-item">
+                  <img src="./images/lang/cz.svg" alt="" class="select-item__flag">
+                  <p class="select-item__lang">Česky</p>
+                </div>
+                <div data-lang="pl" class="select-item">
+                  <img src="./images/lang/pl.svg" alt="" class="select-item__flag">
+                  <p class="select-item__lang">Polski</p>
                 </div>
               </div>
             </div>
@@ -340,15 +351,25 @@
           </ul>
           <div class="header__buttons">
             <div class="select mobile">
-              <div class="select__header">
-                <span class="select__curent">UA</span>
-                <div class="select__icon">
-                  <img src="./images/header/arrow-black.svg" alt="" loading="lazy">
-                </div>
+              <img src="./images/lang/ukr.svg" alt="" class="select-img">
+              <img src="./images/lang/arrow-2.svg" alt="" class="select-arrow">
+            </div>
+            <div class="select-body mobile">
+              <div data-lang="ukr" class="select-item">
+                <img src="./images/lang/ukr.svg" alt="" class="select-item__flag">
+                <p class="select-item__lang">Українська</p>
               </div>
-              <div class="select__body">
-                <div class="select__item">UA</div>
-                <div class="select__item">EN</div>
+              <div data-lang="en" class="select-item">
+                <img src="./images/lang/en.svg" alt="" class="select-item__flag">
+                <p class="select-item__lang">English</p>
+              </div>
+              <div data-lang="cz" class="select-item">
+                <img src="./images/lang/cz.svg" alt="" class="select-item__flag">
+                <p class="select-item__lang">Česky</p>
+              </div>
+              <div data-lang="pl" class="select-item">
+                <img src="./images/lang/pl.svg" alt="" class="select-item__flag">
+                <p class="select-item__lang">Polski</p>
               </div>
             </div>
             <a href="https://admin.qrboss.com.ua/site/login" class="standart-btn header__btn-link">
@@ -371,7 +392,7 @@
         <section class="top index">
           <div class="container">
             <div class="top__inner">
-              <div class="top__box">
+              <div class="top__box index">
                 <div class="top__content hidden element-animation">
                   <h2 class="top__title element-animation">Розумні інструменти</h2>
                   <div class="top__text-wrapper">
@@ -388,8 +409,8 @@
                   <p class="top__form-descr element-animation">Ми зв'яжемося з вами за декілька хвилин</p>
                 </div>
               </div>
-              <div class="top__box">
-                <img class="top__img element-animation" src="./images/top/main.png" alt="" loading="lazy">
+              <div class="top__box index">
+                <img class="top__img element-animation big-img" src="./images/top/index.png" alt="" loading="lazy">
               </div>
               <form class="top__form mobile">
                 <input type="tel" id="phone-2" class="top__input" placeholder="">
@@ -520,7 +541,7 @@
                 </div>
                 <div class="cards__card element-animation">
                   <h4 class="cards__card-title">
-                    Розробка IT-продуктів
+                    Розробка IT продуктів
                   </h4>
 
                   <img class="cards__card-bg" src="./images/cards/card-bg-9.jpg" alt="" loading="lazy">
@@ -555,106 +576,91 @@
           </div>
         </section>
       </div>
+
+
       <div class="bg__lines-left">
         <section class="partners element-animation">
           <div class="container">
             <h2 class="partners__title">Вже користуються нашими рішеннями</h2>
-          </div>
-          <div class="partners__inner">
-            <div class="parents__item">
-              <img src="./images/partners/parters-1.svg" alt="" class="parents__img" loading="lazy">
+            <div class="partners__inner ">
+              <div class="partners__item">
+                <img src="./images/partners/img-1.png" alt="" class="partners__img">
+              </div>
+              <div class="partners__item">
+                <img src="./images/partners/img-2.png" alt="" class="partners__img">
+              </div>
+              <div class="partners__item">
+                <img src="./images/partners/img-3.png" alt="" class="partners__img">
+              </div>
+              <div class="partners__item">
+                <img src="./images/partners/img-4.png" alt="" class="partners__img">
+              </div>
+              <div class="partners__item">
+                <img src="./images/partners/img-5.png" alt="" class="partners__img">
+              </div>
+              <div class="partners__item">
+                <img src="./images/partners/img-6.png" alt="" class="partners__img">
+              </div>
+              <div class="partners__item">
+                <img src="./images/partners/img-7.png" alt="" class="partners__img">
+              </div>
+              <div class="partners__item">
+                <img src="./images/partners/img-8.png" alt="" class="partners__img">
+              </div>
+              <div class="partners__item">
+                <img src="./images/partners/img-9.png" alt="" class="partners__img">
+              </div>
+              <div class="partners__item">
+                <img src="./images/partners/img-10.png" alt="" class="partners__img">
+              </div>
+              <div class="partners__item">
+                <img src="./images/partners/img-11.png" alt="" class="partners__img">
+              </div>
+              <div class="partners__item">
+                <img src="./images/partners/img-12.png" alt="" class="partners__img">
+              </div>
             </div>
-            <div class="parents__item">
-              <img src="./images/partners/parters-2.svg" alt="" class="parents__img" loading="lazy">
-            </div>
-            <div class="parents__item">
-              <img src="./images/partners/parters-3.svg" alt="" class="parents__img" loading="lazy">
-            </div>
-            <div class="parents__item">
-              <img src="./images/partners/parters-4.svg" alt="" class="parents__img" loading="lazy">
-            </div>
-            <div class="parents__item">
-              <img src="./images/partners/parters-5.svg" alt="" class="parents__img" loading="lazy">
-            </div>
-            <div class="parents__item">
-              <img src="./images/partners/parters-6.svg" alt="" class="parents__img" loading="lazy">
-            </div>
-            <div class="parents__item">
-              <img src="./images/partners/parters-7.svg" alt="" class="parents__img" loading="lazy">
-            </div>
-            <div class="parents__item">
-              <img src="./images/partners/parters-8.svg" alt="" class="parents__img" loading="lazy">
-            </div>
-            <div class="parents__item">
-              <img src="./images/partners/parters-9.svg" alt="" class="parents__img" loading="lazy">
-            </div>
-            <div class="parents__item">
-              <img src="./images/partners/parters-10.svg" alt="" class="parents__img" loading="lazy">
-            </div>
-            <div class="parents__item">
-              <img src="./images/partners/parters-11.svg" alt="" class="parents__img" loading="lazy">
-            </div>
-            <div class="parents__item">
-              <img src="./images/partners/parters-12.svg" alt="" class="parents__img" loading="lazy">
-            </div>
-            <div class="parents__item">
-              <img src="./images/partners/parters-13.svg" alt="" class="parents__img" loading="lazy">
-            </div>
-            <div class="parents__item">
-              <img src="./images/partners/parters-14.svg" alt="" class="parents__img" loading="lazy">
-            </div>
-            <div class="parents__item">
-              <img src="./images/partners/parters-15.svg" alt="" class="parents__img" loading="lazy">
-            </div>
-          </div>
-          <div class="partners__inner-2" dir="rtl">
-            <div class="parents__item">
-              <img src="./images/partners/parters-15.svg" alt="" class="parents__img" loading="lazy">
-            </div>
-            <div class="parents__item">
-              <img src="./images/partners/parters-14.svg" alt="" class="parents__img" loading="lazy">
-            </div>
-            <div class="parents__item">
-              <img src="./images/partners/parters-13.svg" alt="" class="parents__img" loading="lazy">
-            </div>
-            <div class="parents__item">
-              <img src="./images/partners/parters-12.svg" alt="" class="parents__img" loading="lazy">
-            </div>
-            <div class="parents__item">
-              <img src="./images/partners/parters-11.svg" alt="" class="parents__img" loading="lazy">
-            </div>
-            <div class="parents__item">
-              <img src="./images/partners/parters-10.svg" alt="" class="parents__img" loading="lazy">
-            </div>
-            <div class="parents__item">
-              <img src="./images/partners/parters-9.svg" alt="" class="parents__img" loading="lazy">
-            </div>
-            <div class="parents__item">
-              <img src="./images/partners/parters-8.svg" alt="" class="parents__img" loading="lazy">
-            </div>
-            <div class="parents__item">
-              <img src="./images/partners/parters-7.svg" alt="" class="parents__img" loading="lazy">
-            </div>
-            <div class="parents__item">
-              <img src="./images/partners/parters-6.svg" alt="" class="parents__img" loading="lazy">
-            </div>
-            <div class="parents__item">
-              <img src="./images/partners/parters-5.svg" alt="" class="parents__img" loading="lazy">
-            </div>
-            <div class="parents__item">
-              <img src="./images/partners/parters-4.svg" alt="" class="parents__img" loading="lazy">
-            </div>
-            <div class="parents__item">
-              <img src="./images/partners/parters-3.svg" alt="" class="parents__img" loading="lazy">
-            </div>
-            <div class="parents__item">
-              <img src="./images/partners/parters-2.svg" alt="" class="parents__img" loading="lazy">
-            </div>
-            <div class="parents__item">
-              <img src="./images/partners/parters-1.svg" alt="" class="parents__img" loading="lazy">
+            <div class="partners__inner-2 " dir="rtl">
+              <div class="partners__item">
+                <img src="./images/partners/img-13.png" alt="" class="partners__img">
+              </div>
+              <div class="partners__item">
+                <img src="./images/partners/img-14.png" alt="" class="partners__img">
+              </div>
+              <div class="partners__item">
+                <img src="./images/partners/img-15.png" alt="" class="partners__img">
+              </div>
+              <div class="partners__item">
+                <img src="./images/partners/img-16.png" alt="" class="partners__img">
+              </div>
+              <div class="partners__item">
+                <img src="./images/partners/img-17.png" alt="" class="partners__img">
+              </div>
+              <div class="partners__item">
+                <img src="./images/partners/img-18.png" alt="" class="partners__img">
+              </div>
+              <div class="partners__item">
+                <img src="./images/partners/img-19.png" alt="" class="partners__img">
+              </div>
+              <div class="partners__item">
+                <img src="./images/partners/img-20.png" alt="" class="partners__img">
+              </div>
+              <div class="partners__item">
+                <img src="./images/partners/img-21.png" alt="" class="partners__img">
+              </div>
+              <div class="partners__item">
+                <img src="./images/partners/img-22.png" alt="" class="partners__img">
+              </div>
+              <div class="partners__item">
+                <img src="./images/partners/img-23.png" alt="" class="partners__img">
+              </div>
+              <div class="partners__item">
+                <img src="./images/partners/img-24.png" alt="" class="partners__img">
+              </div>
             </div>
           </div>
         </section>
+
         <section id="contact" class="contact element-animation">
           <div class="container">
             <div class="contact__inner">
@@ -683,9 +689,9 @@
           </div>
         </section>
       </div>
+
     </main>
   </div>
-
 
 
   <footer class="footer">
@@ -693,7 +699,7 @@
       <div class="container">
         <div class="footer__boxes">
           <div class="footer__box">
-            <img src="./images/footer/logo.png" alt="" class="footer__logo" loading="lazy">
+            <img src="./images/footer/logo.svg" alt="" class="footer__logo" loading="lazy">
             <div class="footer__descr"><span>Розумні інструменти</span> для зростання вашого бізнесу</div>
           </div>
           <div class="footer__box">
@@ -742,17 +748,14 @@
               Політика конфіденційності
             </div>
             <div class="footer__item-text active">
-              Умови користування
-            </div>
-            <div class="footer__item-text active">
-              Договір оферти
+              Умови доступу та користування
             </div>
           </div>
         </div>
       </div>
     </div>
   </footer>
-  </div>
+
 
   <div class="popup">
     <div class="popup__inner">
@@ -787,11 +790,9 @@
     </div>
   </div>
 
+
   <script src="./build/js/intlTelInput.js"></script>
   <script type="module" src="./js/main.min.js"></script>
-  <script>
-
-  </script>
 </body>
 
 </html>
